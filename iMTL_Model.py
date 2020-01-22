@@ -41,16 +41,16 @@ random.seed(2019)
 
 # model parameter
 RNN_stack_layers = 3
-hidden_size = 300
+hidden_size = 120
 
 # training parameter
 batch_size = 1
 lr = 1e-4
-iter_num = 1000
+iter_num = 25
 break_threshold = 0.001
-w_c = 1/3
-w_t= 1/3
-w_p = 1/3
+w_c = 0.4
+w_t= 0.3
+w_p = 0.3
 
 # overfit control
 keep_prob = 0.1
